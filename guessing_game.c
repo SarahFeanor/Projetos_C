@@ -93,9 +93,9 @@ int main() {
         printf("  Fim de jogo!\n");
     
         if(acertou) {
-            printf("  ************************************\n");
-            printf("  * BEM VINDO AO JOGO DE ADIVINHAÇÃO *\n");
-            printf("  ************************************\n");
+            printf("  **************************\n");
+            printf("  * PARABÉNS VOCÊ ACERTOU! *\n");
+            printf("  **************************\n");
             printf("\n");
             printf("  Você acertou em %d tentativas!\n", tentativas);
             printf("  Total de pontos: %.1f\n", pontos);
